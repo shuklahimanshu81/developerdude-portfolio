@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root{
-    --primary-color:#08df7a;
+    --primary-color:#534724;
 }
 
 body{
@@ -48,3 +48,24 @@ hr{
         padding: 0rem 0.5rem ;
 }
 
+.navigation{
+   background-color: var(--primary-color);
+   color: white;
+   padding: 1rem ;
+   border-bottom-left-radius: 1rem;
+}
+.navigation .link{
+    color: white;
+}
+.navigation .nav-pills {
+    text-align: right;
+} 
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
