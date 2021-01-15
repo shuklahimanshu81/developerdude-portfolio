@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --primary-color: aqua;
+    --primary-color: #A7F3D0;
     --dark-gray: #6B7280;
-    --off-white: #F3F4F6;
+    --off-white:#A7F3D0;
+    --dark-aqua:aqua;
     
     
 }
@@ -21,18 +22,21 @@ body {
 .container-center {
     max-width: 600px;
     margin: auto;
+    padding: 2rem 0rem;
+    font-weight: bold;
 }
 
 /** links **/
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    text-align: center;
 }
 
 .primary-link {
-    background-color: var(--primary-color);
+    background-color: rgb(202, 61, 26);
     border-radius: 0.5rem;
-    color: white
+    color: black
 }
 
 .secondary-link {
@@ -57,7 +61,7 @@ hr {
 }
 
 .navigation {
-    background-color: var(--primary-color);
+    background-color: #10B981;
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
@@ -75,6 +79,7 @@ hr {
 .navigation .nav-brand {
     font-weight: bold;
     font-size: 2rem;
+    background-color: #10B981;
 }
 
 .navigation .link-active { 
@@ -82,15 +87,21 @@ hr {
 }
 .hero{
     padding: 0.5rem;
+    background-color: #ECFDF5;
+}
+.hero p{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
 }
 .hero .hero-img{
-    max-width: 350px;
+    max-width: 450px;
+    min-height: 350px;
     display: block;
     margin: auto;
 }
 .hero .hero-heading{
-    padding: 2rem;
-    color: var(--dark-gray);
+    padding: 0.5rem;
     text-align: center;
 }
 /** sections **/
@@ -101,20 +112,40 @@ hr {
     text-align: center;
 }
 .ow {
-    background-color: var(--off-white);
+    background-color: #A7F3D0;
+}
+.ow p{
+    font-weight: bold;
+    font-size: 1rem;
 }
 
 /** footers  **/
 .footer{
-    background-color: var(--primary-color);
+    background-color:white;
     padding: 2rem;
     text-align: center;
-    color: white;
+    color: black
     border-top-right-radius: 1rem  ;
 }
 .footer .link{
-    color: white;
+    color:black;
 }
 .footer ul{
     padding-inline-start: 0px;
 }
+.footer .footer-header{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.footer .list-item-inline{
+    font-size: 1.2rem;
+    margin: auto;
+}
+.blog{
+    text-align: center;
+    padding: 5rem;
+}
+ .blogs{
+    background-color:  #A7F3D0;
+}
+
