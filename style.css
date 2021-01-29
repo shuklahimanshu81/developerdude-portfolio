@@ -37,6 +37,10 @@ body {
     background-color: rgb(202, 61, 26);
     border-radius: 0.5rem;
     color: black
+    
+}
+.section  .primary-link{
+    text-align: center;
 }
 
 .secondary-link {
@@ -105,8 +109,16 @@ hr {
     text-align: center;
 }
 /** sections **/
+.section .project-img{
+    max-width: 450px;
+    min-height: 350px;
+    display: block;
+    margin: auto;
+}
+
 .section{
     padding: 2rem;
+    background-color: #ECFDF5;
 }
 .section h1{
     text-align: center;
@@ -121,7 +133,7 @@ hr {
 
 /** footers  **/
 .footer{
-    background-color:white;
+    background-color:#ECFDF5;
     padding: 2rem;
     text-align: center;
     color: black
