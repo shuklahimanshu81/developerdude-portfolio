@@ -79,6 +79,7 @@ hr {
 
 .navigation .nav-pills {
     text-align: right;
+    
 }
 
 .navigation .nav-brand {
@@ -86,8 +87,17 @@ hr {
     font-size: 2rem;
     background-color: #10B981;
 }
-
-
+li:hover{
+    
+    background-color:rgb(90, 131, 138);
+   
+   
+        padding: 8px;
+        border: 4px;
+        cursor: pointer;
+        border-radius: 40px;
+  
+}
 .navigation .link-active { 
     font-weight: bold;
 }
@@ -154,6 +164,7 @@ hr {
 .footer .list-item-inline{
     font-size: 1.2rem;
     margin: auto;
+  
 }
 .blog{
     text-align: center;
